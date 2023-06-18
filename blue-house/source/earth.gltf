@@ -1,0 +1,145 @@
+{
+  "asset": {
+    "generator": "Khronos Blender glTF 2.0 I/O",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "Cube.001"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Default OBJ",
+      "normalTexture": {
+        "index": 0,
+        "texCoord": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1,
+          "texCoord": 0
+        },
+        "metallicFactor": 0.25,
+        "roughnessFactor": 0.8999999761581421
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Cube.002",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    }
+  ],
+  "images": [
+    {
+      "name": "earth_norm.jpg",
+      "uri": "earth_img0.png"
+    },
+    {
+      "name": "earth_diff.jpg",
+      "uri": "earth_img1.png"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 1778,
+      "max": [
+        500,
+        498.32342529296875,
+        500
+      ],
+      "min": [
+        -499.9999694824219,
+        -498.3235168457031,
+        -500
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 1778,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1778,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5123,
+      "count": 9216,
+      "type": "SCALAR"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 21336,
+      "byteOffset": 0
+    },
+    {
+      "buffer": 0,
+      "byteLength": 21336,
+      "byteOffset": 21336
+    },
+    {
+      "buffer": 0,
+      "byteLength": 14224,
+      "byteOffset": 42672
+    },
+    {
+      "buffer": 0,
+      "byteLength": 18432,
+      "byteOffset": 56896
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9986,
+      "wrapS": 33071,
+      "wrapT": 33071
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "earth_data.bin",
+      "byteLength": 75328
+    }
+  ]
+}
